@@ -1,10 +1,10 @@
-import os
+import oshttps://github.com/manupalhu/pyejer/blob/master/app.py
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return 'Hola cabesa' 
+    return 'Hola makina' 
 
 @app.route('/how are you')
 def hello():
